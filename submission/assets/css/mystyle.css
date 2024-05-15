@@ -1,0 +1,508 @@
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .example-rule { color: blue; }
+	.dropdown-menu.dropdown-menu-right {
+        right: 0;
+        left: auto;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .example-rule { color: green; }
+	.navbar-collapse {
+    left: auto; /* Ensure the left position is unset */
+    right: 0; /* Set the right edge of the collapsed menu to align with the right edge of the viewport */
+  }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .example-rule { color: red; }
+  }
+  
+  /* X-Large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    .example-rule { color: purple; }
+  }
+  
+  /* XX-Large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+    .example-rule { color: orange; }
+  }
+  
+  
+
+  
+  .nav-item {
+    position: relative;
+    left: -50px; /* Adjusts if you intended to move it 60px instead of 50px as in the comment */
+  }
+  
+  .navbar-brand {
+    margin-left: 20px; /* This increases the left margin, effectively pushing the element to the right */
+  }
+.navbar-nav .nav-link {
+    font-weight: bold;
+}
+  
+
+ 
+
+  p {
+    font-family: 'Open Sans', sans-serif;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Oswald', sans-serif;
+      /*font-family: cocaColaFont;*/
+  }
+
+  
+
+  @font-face {
+    font-family: cocaColaFont;
+    src: url(../assests/fonts/LOKICOLA.TTF);
+    }
+
+    #main_3d_image {
+      background-image: url(../assests/images/main_3D.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      margin-top: 20px;
+  }
+      #main_text {
+      float: left;
+      margin: 5%;
+      width: 30%;
+      display: block;
+      background-color: rgba(255,255,255,0.8);
+      padding: 10px;
+      
+      }
+      #main_text h2 {
+      color: rgba(0,102,153,1);
+      font-size: 20px;
+      margin-top: 0px;
+      
+      margin-bottom: 5px;
+      }
+      #main_text h3 {
+      font-size: 15px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      }
+      #main_text p {
+      font-size: 12px;
+      margin: 0px;
+      line-height: 1.2;
+      }
+     
+    
+    .card h2 {
+        color: #760003; /* Change heading color to match border color */
+    }
+    
+    .card p {
+        color: #333; /* Change paragraph text color */
+    }
+
+    /* CSS rule to style the mobile logo */
+.logo {
+  margin-top: 3px;
+  padding-left: 50px;
+  margin-top: 20px;
+}
+
+.logo h1 {
+  font-family: cocaColaFont; 
+  font-size: 40px;
+  margin: 0;
+  margin-top: -10px;
+  margin-bottom: -15px;
+  float: left;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 2px;
+  }
+  
+  .logo h2 {
+  font-family: cocaColaFont;
+  font-size: 40px;
+  margin-top: -6px;
+  margin-bottom: -15px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 3px;
+  float: left;
+  }
+  
+  .logo h3 {
+  font-size: 28px;
+  margin-top: -6px;
+  margin-bottom: -10px;
+  padding-top: 0px;
+  padding-left: 2px;
+  float: left;
+  }
+  
+  .logo p {
+  font-size: 10px; /* You may have to tweak this to get a good fit */
+  margin-top: 0px; /* You may have to tweak this to get a good fit */
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-left: 3px;
+  }
+  
+  
+
+/* New CSS rules to better position the navbar and increase its height */
+/* CSS rule to overwrite the navbar background and border color */
+.navbar_coca_cola {
+  background-color: #760003; /* Set navbar background color */
+  
+  min-height: 70px;
+}
+.navbar_coca_cola .navbar-toggler {
+  
+}
+
+/* CSS rule to overwrite the navbar-brand font color */
+.navbar_coca_cola .navbar-brand {
+  color: rgb(245, 235, 235);
+}
+.navbar_coca_cola .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1.0)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); /* Change the background image */
+}
+
+/* CSS rule to overwrite the navbar-brand font hover color */
+.navbar_coca_cola .navbar-brand:hover {
+  color: black;
+}
+
+/* CSS rules to overwrite the position of the Bootstrap menu */
+.navbar_coca_cola .navbar-nav > li > a {
+  color: white;
+}
+
+/* CSS rule to overwrite the bootstrap.css text hover color on the navbar */
+.navbar_coca_cola .navbar-nav > li > a:hover,
+.navbar_coca_cola .navbar-nav > li > a:focus {
+  color: black;
+}
+
+/* CSS rule to overwrite the bootstrap.css rules for setting the active font color and background color */
+.navbar_coca_cola .navbar-nav .nav-item > .active,
+.navbar_coca_cola .navbar-nav > .active > a:hover,
+.navbar_coca_cola .navbar-nav > .active > a:focus {
+  color: #760003; /* Font color for active font */
+  background-color: #3399ff; /* Blue color for background */
+}
+
+
+.dropdown-menu {
+  text-align: -webkit-left; /* Align the text to the left */
+  background-color: #FFFFFF; /* Set background color */
+  margin-top: 20px; /* Experiment to move the dropdown menu down */
+}
+
+.dropdown-menu .dropdown-item {
+  color: #eb0025; /* Set text color for dropdown items */
+}
+
+.dropdown-menu .dropdown-item:hover {
+  color: #030303; /* Set text color on hover for dropdown items */
+  background-color: #e98074; /* Set background color on hover for dropdown items */
+}
+
+.navbar_coca_cola .navbar-toggler {
+  outline: none !important; /* Remove outline */
+}
+
+/* CSS rule to style the footer */
+.footer {
+  color: #030303;
+  background-color: #760003; /* Set navbar footer background color same as header */
+  height: 50px;
+}
+
+/* CSS rule to style links in footer */
+.navbar-text > a {
+  font-size: 10px;
+}
+
+/* CSS rule to style paragraphs in footer */
+.navbar-text > p {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  text-decoration: none;
+}
+
+/* CSS rule to adjust padding for copyright text */
+.copyright {
+  padding-top: 8px;
+}
+
+/* CSS rule to adjust padding for social icons */
+.social {
+  padding-top: 0px;
+}
+.card-header .nav-tabs {
+    padding-left:45px;
+}
+.custom-dropdown-menu .dropdown-menu {
+    border: none !important; /* Remove any border */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Adjust box shadow as needed */
+    border-top: none !important; /* Ensure no top border */
+    border-bottom: none !important; /* Ensure no bottom border */
+}
+
+.custom-dropdown-menu .dropdown-menu .dropdown-item {
+    color: #007bff;
+    background-color: #fff;
+}
+
+.custom-dropdown-menu .dropdown-menu .dropdown-item:hover {
+    color: #0056b3;
+    background-color: #e9ecef;
+}
+.gallery-header {
+color: white;
+}
+.gallery-header:hover {
+color: green;
+
+}
+.model3D {
+background-color: rgba(255, 255, 255, 0.2);
+
+ position: relative;
+padding: 2px;
+height: 500px;
+width: 500px
+}
+X3D, x3d {
+
+
+width: 100%;
+height: 100%
+}
+
+.bgCoke {
+    position: absolute;
+    /* z-index: -1; Remove or adjust z-index as needed */
+    background-image: url(../assests/images/factory.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -50px 0px; /* Move the background image 50px to the left and 100px down */
+	
+  
+    /* Change the size of the background image for different media break points */
+    width: 100%;
+    height: 50vh; /* Adjusted height for better visibility */
+}
+.card {
+    border: none; /* Remove borders from all cards */
+	background-color: #f0f0f0; /* Set your desired background color */
+   
+    padding: 20px; /* Adjust padding as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}
+
+#coke-body{
+    position: relative; /* Make the .card-body container positioned */
+	background-color: #fe001a; /* Set your desired background color */
+    border-radius: 20px; /* Adjust this value to change the amount of curve */
+    padding: 20px; /* Adjust padding as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}
+#sprite-card{
+    position: relative; /* Make the .card-body container positioned */
+	background-color: #008B47; /* Set your desired background color */
+    border-radius: 20px; /* Adjust this value to change the amount of curve */
+    padding: 20px; /* Adjust padding as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+	 margin-top: 20px;
+}
+#dr-pepper-card{
+    position: relative; /* Make the .card-body container positioned */
+	background-color: #890024; /* Set your desired background color */
+    border-radius: 20px; /* Adjust this value to change the amount of curve */
+    padding: 20px; /* Adjust padding as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}
+#coke-content{
+    position: relative; /* Make the .card-body container positioned */
+	background-color:#fe001a; /* Set your desired background color */
+    
+    padding: 20px; /* Adjust padding as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}
+#content-title{
+    position: relative; /* Make the .card-body container positioned */
+	background-color:#FFFFFF; /* Set your desired background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+	
+	  border-top-left-radius: 10px; /* Adjust the radius for the top-left corner */
+    border-top-right-radius: 10px; /* Adjust the radius for the top-right corner */
+}
+#content-description{
+    position: relative; /* Make the .card-body container positioned */
+	background-color:#FFFFFF; /* Set your desired background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+	padding: 20px;
+	 border-bottom-left-radius: 10px; /* Adjust the radius for the top-left corner */
+    border-bottom-right-radius: 10px; /* Adjust the radius for the top-right corner */
+}
+.slider.coke-slider{
+    position: relative; /* Make the .card-body container positioned */
+	background-color:#fe001a; /* Set your desired background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+	padding: 20px;
+	
+}
+#sprite-in-content{
+	
+    position: relative; /* Make the .card-body container positioned */
+	background-color: #008B47; /* Set your desired background color */
+	padding: 20px; /* Adjust padding as needed */
+    
+}
+
+#gallery-sprite-title{
+    position: relative; /* Make the .card-body container positioned */
+	background-color:#FFFFFF; /* Set your desired background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+	
+	  
+}
+
+#sprite-card-description{
+	
+    position: relative; /* Make the .card-body container positioned */
+	background-color: #FFFFFF; /* Set your desired background color */
+	padding: 20px; /* Adjust padding as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}
+.slider.sprite-slider{
+    position: relative; /* Make the .card-body container positioned */
+	background-color:#008B47; /* Set your desired background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+	padding: 20px;
+	
+}
+#pepper-content{
+    position: relative; /* Make the .card-body container positioned */
+	background-color:#890024; /* Set your desired background color */
+    
+    padding: 20px; /* Adjust padding as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}
+.slider.drpepper-slider{
+    position: relative; /* Make the .card-body container positioned */
+	background-color:#890024; /* Set your desired background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+	padding: 20px;
+	
+}
+
+.card-bodymodel .btn {
+    margin-top: 480px; /* Adjust the margin-top value to move the buttons down */
+	margin-left:10px; 
+
+.card-bodymodel .card-title {
+    margin-top: 10px !important; /* Adjust the margin-top value and use !important to override any conflicting styles */
+}
+
+.card-bodymodel .card-text {
+    margin-bottom: 10px; /* Adjust the margin-bottom value to move the text down */
+}
+.card-header ul.nav-tabs {
+    padding-left: 0; /* Reset padding */
+	margin-left:5px; 
+	background-color: transparent;
+}
+.card-header ul.nav-tabs .nav-item {
+    margin-right: 5px; /* Adjust or remove margin as needed */
+}
+
+.card-body .btn {
+    margin-top: 200px; /* Adjust the top margin to move the button down */
+    margin-left: 10px; /* Adjust the left margin to move the button to the left */
+}
+.card-title {
+  position: relative;
+  top: 20px; /* Adjust the number of pixels as needed */
+  margin-top: -20px; /* Adjust the number of pixels as needed */
+}
+
+
+
+
+
+
+#bodyColor, #headerColor, #footerColor {
+    transition: background-color 1.5s ease;
+}
+.main-contents {
+    display: none;
+}
+.custom-footer {
+    margin-top: 50px; /* Adjust this value to your desired spacing */
+    background-color: rgba(175, 0, 0, 1); /* Adjust the footer background color */
+    position: relative; /* Set the position of the footer container to relative */
+}
+
+.social {
+    position: absolute; /* Set the position of social media thumbnails to absolute */
+    top: 10px; /* Adjust the top position of the social media thumbnails */
+    right: 10px; /* Adjust the right position of the social media thumbnails */
+}
+
+.fa-github-square,
+.fa-google-plus-square,
+.fa-twitter-square,
+.fa-facebook-square {
+    margin-right: 10px; /* Adjust the right margin for social media thumbnails */
+}
+
+
+.gallery_cell {
+    
+    margin: 5px;
+    padding: 10px;
+   
+  
+.btn-primary {
+    margin-right:100px; 
+}
+
+.btn-secondary {
+    /* Styles for the 'Back' button */
+}
+
+.btn-success {
+    /* Styles for the 'Left' button */
+}
+
+.btn-danger {
+    /* Styles for the 'Right' button */
+}
+
+.btn-warning {
+    /* Styles for the 'Top' button */
+}
+
+.btn-outline-dark {
+    /* Styles for the 'Off' button */
+}
+
+.disabled {
+    /* Styles for the disabled state (if needed) */
+}
+.card-title-wrapper {
+    background-color: red;
+    color: #760003; /* Text color */
+}

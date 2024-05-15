@@ -1,0 +1,245 @@
+{
+  "scripts": [
+    "js/getJsonData.js",
+    "js/x3dom.js",
+    "js/slideshow.js",
+    "js/swap.js",
+    "https://code.jquery.com/jquery-latest.js"
+  ],
+  "header": {
+    "logo": {
+      "brandName": "Coca Cola Journey",
+      "slogan": "Refreshing the world, one story at a time",
+      "links": [
+        {
+          "text": "Home",
+          "url": "index.html",
+          "active": true
+        },
+        {
+          "text": "About",
+          "url": "#"
+        },
+        {
+          "text": "Drinks",
+          "dropdown": [
+            {
+              "text": "Coca Cola",
+              "action": "javascript:swap('coke')"
+            },
+            {
+              "text": "Sprite",
+              "action": "javascript:swap('sprite')"
+            },
+            {
+              "text": "Dr Pepper",
+              "action": "javascript:swap('pepper')"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "mainContent": {
+    "text": {
+      "title": "Coca Cola Great Britain",
+      "subtitle": "Founded by Dr John S Pemberton",
+      "description": "The Coca Cola Company is the world's leading manufacturer, marketer and distributor of non-alcoholic beverage concentrates and syrups, and produces nearly 400 brands."
+    },
+    "cards": [
+      {
+        "title": "Coca Cola",
+       
+        "description": "History of Coca Cola: 1886-1892 Atlanta Beginnings: It was 1886, and in New York Harbour, workers were constructing the Statue of Liberty. Eight hundred miles away, another great American symbol was about to be unveiled. Like many people who change history, John Pemberton, an Atlanta pharmacist, was inspired by simple curiosity. One afternoon, he stirred up a fragrant, caramel-coloured liquid and, when it was done, he carried it a few doors down to Jacob's Pharmacy. Here, the mixture was combined with carbonated water and sampled by customers who all agreed - this new drink was something special.",
+        "button": {
+          "text": "Find out more",
+          "url": "#"
+        }
+      },
+      {
+        "title": "Sprite",
+       
+        "description": "First introduced in 1961, crisp, refreshing, clean-tasting Sprite is now the world's leading lemon and lime flavoured soft drink and is sold in more than 190 different countries. Sprite Zero, part of our no sugar Zero range, offers the delicious lemon lime taste of Sprite without the sugar or calories.",
+        "button": {
+          "text": "Find out more",
+          "url": "#"
+        }
+      },
+      {
+        "title": "Dr Pepper",
+        
+        "description": "Dr Pepper's unique, sparkling blend of 23 fruit flavours has been around for well over a century and it's still the same, with that distinctive flavour you just can't quite put your tongue on. It was created by Texas pharmacist Charles Alderton in 1885. He gave a sample of the first ever batch to Wade Morrison, a local shop owner, and Mr Morrison instantly agreed to stock the drink. The distinctive, bold taste of Dr Pepper has been popular ever since.",
+        "button": {
+          "text": "Find out more",
+          "url": "#"
+        }
+      }
+    ]
+  },
+  "cokePage": {
+    "slider": {
+      "image": "Coke Slideshow Image"
+    },
+    "x3dModel": {
+      "title": "Coca Cola X3D Model",
+      "description": "This X3D model of the coke can had been created in 3ds Max, exported to VRML97 and converted, using the instantreality transcoders, to X3D for display online.",
+      "modelUrl": "https://users.sussex.ac.uk/~la480/3Dapp/Labs/submission/assets/x3d/newcokecanx3d.x3d",
+      "cameraButtons": [
+        {
+          "label": "Front",
+          "action": "cam1()"
+        },
+        {
+          "label": "Back",
+          "action": "cam2()"
+        },
+        {
+          "label": "Left",
+          "action": "cam3()"
+        },
+        {
+          "label": "Right",
+          "action": "cam4()"
+        },
+        {
+          "label": "Top",
+          "action": "cam5()"
+        },
+        {
+          "label": "Off",
+          "action": "",
+          "disabled": true
+        }
+      ]
+    },
+    "imageGallery": {
+      "title": "3D Image Gallery",
+      "description": "These 3D images of the Coke can, Sprite bottle and Dr Pepper cup are rendered in 3ds Max 2017 with Mental Ray",
+      "galleryId": "gallery_coke"
+    },
+    "content": {
+      "title": "Coca Cola",
+      "description": "Atlanta Beginnings: It was 1886, and in New York Harbour, workers were constructing the Statue of Liberty. Eight hundred miles away, another great American symbol was about to be unveiled. Like many people who change history, John Pembeton, an Atlanta pharmacist, was inspired by simple curiosity. One afternoon, he stirred up a fragrant, caramel-coloured liquid and, when it was done, he carried it a few doors down to Jacob's Pharmacy. Here, the mixture was combined with carbonated water and sampled by customer who all agreed - this new drink was something special. So Jacobs' Pharmacy put it on sale for five cents (about 3p) a glass.",
+      "videoUrl": "https://www.youtube.com/embed/jwCYxwkjw90"
+    }
+  },
+  "spritePage": {
+    "slider": {
+      "image": "Sprite Slideshow Image"
+    },
+    "x3dModel": {
+      "title": "Sprite X3D Model",
+      "description": "This X3D model of the coke can had been created in 3ds Max, exported to VRML97 and converted, using the instantreality transcoders, to X3D for display online.",
+      "modelUrl": "https://users.sussex.ac.uk/~la480/3Dapp/Labs/Lab6/x3d/newspritex3d.x3d",
+      "cameraButtons": [
+        {
+          "label": "Front",
+          "action": ""
+        },
+        {
+          "label": "Back",
+          "action": ""
+        },
+        {
+          "label": "Left",
+          "action": ""
+        },
+        {
+          "label": "Right",
+          "action": ""
+        },
+        {
+          "label": "Top",
+          "action": ""
+        },
+        {
+          "label": "Off",
+          "action": "",
+          "disabled": true
+        }
+      ]
+    },
+    "imageGallery": {
+      "title": "3D Image Gallery",
+      "description": "These 3D images of the Coke can, Sprite bottle and Dr Pepper cup are rendered in 3ds Max 2017 with Mental Ray",
+      "galleryId": "gallery_sprite"
+    },
+    "content": {
+      "title": "Sprite",
+      "description": "In the early 1960s, spurred by the desire to diversify the soda market, Coca-Cola researchers crafted Sprite, a clear, lemon-lime flavored soda. Launched in 1961, Sprite quickly gained popularity with its crisp taste and clean profile, becoming a global favorite. Over the years, it has evolved to offer variations like Sprite Zero and flavored editions, remaining a refreshing choice for soda enthusiasts worldwide.",
+      "videoUrl": "https://www.youtube.com/embed/VayGiEMWEmM?si=VsD4Ya8VbXc7EipQ"
+    }
+  },
+  "pepperPage": {
+    "slider": {
+      "image": "Dr Pepper Slideshow Image"
+    },
+    "x3dModel": {
+      "title": "Dr Pepper X3D Model",
+      "description": "This X3D model of the coke can had been created in 3ds Max, exported to VRML97 and converted, using the instantreality transcoders, to X3D for display online.",
+      "modelUrl": "https://users.sussex.ac.uk/~la480/3Dapp/Labs/Lab6/x3d/newdrpepperx3d.x3d",
+      "cameraButtons": [
+        {
+          "label": "Front",
+          "action": ""
+        },
+        {
+          "label": "Back",
+          "action": ""
+        },
+        {
+          "label": "Left",
+          "action": ""
+        },
+        {
+          "label": "Right",
+          "action": ""
+        },
+        {
+          "label": "Top",
+          "action": ""
+        },
+        {
+          "label": "Off",
+          "action": "",
+          "disabled": true
+        }
+      ]
+    },
+    "imageGallery": {
+      "title": "3D Image Gallery",
+      "description": "These 3D images of the Coke can, Sprite bottle and Dr Pepper cup are rendered in 3ds Max 2017 with Mental Ray",
+      "galleryId": "gallery_pepper"
+    },
+    "content": {
+      "title": "Dr Pepper",
+      "description": "Dr Pepper's unique, sparkling blend of 23 fruit flavours has been around for well over a century and it's still the same, with that distinctive flavour you just can't quite put your tongue on. It was created by Texas pharmacist Charles Alderton in 1885. He gave a sample of the first ever batch to Wade Morrison, a local shop owner, and Mr Morrison instantly agreed to stock the drink. The distinctive, bold taste of Dr Pepper has been popular ever since.",
+      "videoUrl": "https://www.youtube.com/embed/I3EXXE4nhLw?si=Piz1BB8PmGdZWjBk"
+    }
+  },
+  "footer": {
+    "copyright": {
+      "text": "© 2020 3D Apps |",
+      "restyleLink": "javascript:changeLook()",
+      "resetLink": "javascript:changeBack()"
+    },
+    "socialLinks": [
+      {
+        "icon": "fab fa-github-square fa-2x",
+        "url": "#"
+      },
+      {
+        "icon": "fab fa-google-plus-square fa-2x",
+        "url": "#"
+      },
+      {
+        "icon": "fab fa-twitter-square fa-2x",
+        "url": "#"
+      },
+      {
+        "icon": "fab fa-facebook-square fa-2x",
+        "url": "#"
+      }
+    ]
+  }
+}
